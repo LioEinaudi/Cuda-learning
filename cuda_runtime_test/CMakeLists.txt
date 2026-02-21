@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.18)
 project(CUDAGEMM LANGUAGES CXX CUDA)
 
-# 告诉编译器去哪里找 CUDA 头文件
 include_directories(/usr/local/cuda/include)
 
 set(CMAKE_CXX_STANDARD 17)
